@@ -15,8 +15,8 @@ int main() {
     }
     cout << '\n';
     for (int i = 0; i < n; i++) {
-        if ((mas[i] <= 0) or (k % 2 != 0) or (k <= n)) {
-            flag = 0;
+        if ((mas[i] <= 0) || (k % 2 != 0) || (k <= n)) {
+            f = 0;
             cout << "Графа не существует ";
             return 0;
         }
